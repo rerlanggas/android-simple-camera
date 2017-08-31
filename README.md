@@ -7,7 +7,8 @@ created by [Mark Murphy](www.commonsware.org).
 
 You can also read the [blog post](http://blog.ask-cs.com/using-camera-in-teamup-for-android/), with a more tutorial like example.
 
-##Usage
+
+## Usage local repository
 
 To add this lib as a dependency:
 
@@ -28,6 +29,26 @@ Maven
   <version>(insert latest version)</version>
   <type>apklib</type>
 </dependency>
+```
+
+## Usage online repository
+To use this library you can add android-simple-camera library in your project or you can also grab it via Gradle:
+
+Add it in your root build.gradle at the end of repositories:
+
+```gradle
+allprojects {
+   repositories {
+    maven { url "https://jitpack.io" }
+   }
+}
+```
+
+Add dependencies :
+```gradle
+dependencies {
+     compile 'com.github.rerlanggas:android-simple-camera:1.0'
+}
 ```
 
 This implementation is built around the [`CameraFragment`](https://github.com/commonsguy/cwac-camera/blob/master/camera/src/com/commonsware/cwac/camera/CameraFragment.java).
