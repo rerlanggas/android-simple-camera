@@ -18,7 +18,7 @@ To add this lib as a dependency:
 
 Gradle
 
-`compile 'com.askcs:android-simple-camera:1.2-snapshot'`
+`implementation 'com.askcs:android-simple-camera:1.2-snapshot'`
 
 Maven
 
@@ -47,7 +47,7 @@ allprojects {
 Add dependencies :
 ```gradle
 dependencies {
-     compile 'com.github.rerlanggas:android-simple-camera:1.0'
+     implementation 'com.github.rerlanggas:android-simple-camera:1.0'
 }
 ```
 
